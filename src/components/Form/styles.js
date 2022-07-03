@@ -54,4 +54,8 @@ export const Button = styled.button`
   color: #fff;
   font-weight: 800;
   background-color:  #01124C;
+
+  @media(max-width: 750px){
+    padding: 10px 5px;
+  }
 `;
